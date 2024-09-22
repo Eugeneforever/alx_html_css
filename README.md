@@ -1,0 +1,1 @@
+This repositoty contains a css_basic directory embodies a test practice for applying css styles to html files. The css_advanced directory, as the name suggests embodies an advanced application of css styles to html webfiles.
