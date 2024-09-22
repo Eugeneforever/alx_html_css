@@ -17,8 +17,33 @@ article{
 }
 aside {
     flex: 1;
-    overflow-y: auto
+    overflow-y: auto;
 }
 
+.logo {
+    font-size: 500px;
+    font-weight: bold;
+    padding-right: 30px;
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1px;
+    color: cadetblue;
+}
+
+article {
+    background-image: url(https://plus.unsplash.com/premium_photo-1661508557554-e3d96f2fdde5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D);
+    
+}
 
 
