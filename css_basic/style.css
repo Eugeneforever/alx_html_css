@@ -1,3 +1,6 @@
+* {
+    background-color: blueviolet;
+}
 main, body {
 display: flex;
 }
@@ -25,6 +28,7 @@ aside {
     font-weight: bold;
     padding-right: 30px;
     color: red;
+    text-transform: uppercase;
 }
 
 header {
@@ -41,9 +45,9 @@ h1 {
     color: cadetblue;
 }
 
-article {
+/* article {
     background-image: url(https://plus.unsplash.com/premium_photo-1661508557554-e3d96f2fdde5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHx8MA%3D%3D);
     
-}
+} */
 
 
