@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 0-style.css starts*/
+/* index-o starts here */
+ header {
+    background-image: url(images/background-img.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 800px;
+    /* max-width: 1400px; */
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100vw;
+ }
+
+
+ .hero {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+ }
+ 
+ nav {
+    
+    justify-content: space-around;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+ }
+
+ nav img {
+    /* margin-left: 0.1rem; */
+    /* padding-left: 0.1rem; */
+    margin-top: 16px;
+    /* height: 32px; */
+    /* width: 161px; */
+    flex-direction: row 
+    /* display: flex; */
+    /* padding: 27.76px 1038.39px 200.61px 740.24px; */
+ }
+
+ nav ul {
+    display: flex;
+    justify-content: right;
+    margin-top: 16px;
+    padding-left: 640px;
+    
+}
+
+nav ul a { 
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 41px;
+    padding-right: 8px;
+    text-wrap: nowrap;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul a:hover {
+    color: #FF6565;
+}
+
+header .heading-p1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 200px 300px 200px 300px; */
+    padding-top: 300px;
+    text-align: center;
+    text-wrap: nowrap;
+    justify-content: center;
+}
+.subheading-p1 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 200px 300px 200px 300px; */
+    padding-top: 10px;
+    text-align: center;
+    text-wrap: nowrap;
+    justify-content: center;
+}
+
+.button {
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   color: white;
+   background-color: #FF6565;
+   border: none;
+   height: 44px;
+   width: 162px;
+   border-radius: 22px;
+   justify-content: center;
+   text-align: center;
+   margin: 0 auto;
+   display: block;
+   margin-top: 50px;
+   text-shadow: #FF6565;
+}
+
+.button:hover {
+   opacity: 0.9;
+}
+
+header .text-p1 {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 200px 300px 200px 300px; */
+    padding-top: 100px;
+    text-align: center;
+    text-wrap: wrap;;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 1.5;
+}
+
+/* INDEX -1 STYLE TO BE APPLIED */
+main .what-we-do {
+    text-align: center;
+    /* color: #1D3444 */
+    margin-top: 110px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.www-div {
+align-items: center;
+max-width: 1000px;
+margin: 0 auto;
+width: 100vw;
+
+} 
+
+.www-div h2 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 200px 300px 200px 300px; */
+    padding-top: 100px;
+    text-align: center;
+    text-wrap: wrap;;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    padding-left: 120px;
+    padding-right: 120px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.www-div p {
+    color: #071629;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 200px 300px 200px 300px; */
+    padding-top: 40px;
+    text-align: center;
+    text-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2.5;
+    width: 637px;
+}
+
+/* .section-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+  /* } */
+  /* .section-style h2 {
+    margin-top: 110px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  } */
+
+
+
+.icons-whatwedo {
+    margin-top: 97px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 110px;
+    gap: 58px;
+    width: 1000px;
+    align-items: center;
+  }
+  .icon {
+    max-width: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons-whatwedo img {
+    height: 65px;
+    margin-bottom: 45px;
+  }
+  .icon h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .icon p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+  }
+  @media screen and (max-width: 1000px) {
+    .icons-whatwedo {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 97px 58px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .icons-whatwedo {
+      display: flex;
+      flex-direction: column;
+      gap: 98px;
+    }
+  }
